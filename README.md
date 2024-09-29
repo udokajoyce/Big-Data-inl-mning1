@@ -1,1 +1,19 @@
 # Big-Data-inl-mning1
+
+Codes working perfectly in Linux environment.
+
+Firstly make an environmental variable.
+sudo apt update
+sudo apt install python3 python3-venv python3-pip
+
+cd /path/to/your/project
+python3 -m venv env
+
+source env/bin/activate
+
+pip install redis request
+
+#For execution:
+python menu.py
+
+//or you can run each code individually.
